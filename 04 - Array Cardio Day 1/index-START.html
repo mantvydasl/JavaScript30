@@ -72,6 +72,7 @@
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
     const category = document.querySelector('.mw-category');
     const links = category.querySelectorAll('a');
+    const text = Array.from(links).map(link => link.textContent);
 
 
     // 7. sort Exercise
